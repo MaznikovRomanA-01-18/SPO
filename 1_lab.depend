@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1630682788 source:c:\users\mazni\desktop\7 сем\Системное програмное обеспечение\1_lab\main.cpp
+	<windows.h>
+	<stdio.h>
+	<iostream>
+

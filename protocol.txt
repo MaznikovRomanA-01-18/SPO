@@ -1,0 +1,38 @@
+Version is 6.2 (9200)
+--------------------------------
+System directory: C:\WINDOWS\system32
+--------------------------------
+Computer name: LAPTOP-OLUBAJFN
+User name: mazni
+--------------------------------
+
+\\?\Volume{29c35a68-2814-43bf-9cf7-5becf49ebe36}\
+  First path: C:\
+  Total size: 1358950400  bytes
+  Free space: 2664050688  bytes
+
+\\?\Volume{c32032b6-763d-4f8a-9819-44a37cc198d8}\
+  First path: D:\
+  Total size: 1073737728  bytes
+  Free space: 2866221056  bytes
+
+\\?\Volume{a0407ee7-657b-4293-aba6-e7076b359ce4}\
+  First path:
+  Total size: 1048571904  bytes
+  Free space: 445329408  bytes
+
+\\?\Volume{e044ca30-36ea-4918-824d-75f9bcaffc88}\
+  First path:
+  Total size: 268435456  bytes
+  Free space: 237109248  bytes
+
+--------------------------------
+Programm 1: EpicGamesLauncher : "C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe" -silent
+Programm 2: YandexDisk2 : C:\Users\mazni\AppData\Roaming\Yandex\YandexDisk2\3.2.0.4105\YandexDisk2.exe -autostart
+
+--------------------------------
+CPU Frequency = 10000000 Hz
+CPU clock = 0.500000 us
+
+Process returned 0 (0x0)   execution time : 0.193 s
+Press any key to continue.
