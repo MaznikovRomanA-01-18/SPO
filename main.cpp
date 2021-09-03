@@ -10,7 +10,7 @@ using namespace std;
 
 int main()
 {
-    // 1.1 Версия операционной системы
+    // 1.1
 
     OSVERSIONINFO osvi = {0};
     osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFO);
@@ -27,14 +27,14 @@ int main()
                 dwBuildNumber);
     printf("--------------------------------\n");
 
-    // 1.2 Системный каталог
+    // 1.2
 
     char system_dir[MAX_PATH];
     GetSystemDirectory(system_dir, MAX_PATH);
     printf("System directory: %s \n", system_dir);
     printf("--------------------------------\n");
 
-    // 1.3 Название компьютера и псевдоним текущего пользователя
+    // 1.3
 
     TCHAR  infoBuf[INFO_BUFFER_SIZE];
     DWORD  bufCharCount = INFO_BUFFER_SIZE;
@@ -53,8 +53,7 @@ int main()
     printf("User name: %s\n", infoBuf );
     printf("--------------------------------\n");
 
-    // 1.4 Служебное имя тома, первый путь в файловой системе, объем тома и количество свободного места, доступного текущему
-    // пользователю
+    // 1.4
 
     char buffer[MAX_PATH];
     DWORD  cchBufferLength = MAX_PATH;
@@ -93,7 +92,7 @@ int main()
 
     printf("\n--------------------------------\n");
 
-    // 1.5  Cписок программ, запускаемых при старте системы, из реестра Windows
+    // 1.5
 
     HKEY key;
     DWORD dwIndex = 0;
@@ -116,7 +115,7 @@ int main()
 
     printf("\n--------------------------------\n");
 
-    // 2. Добавить в программу функциональность измерения производительности ЦП
+    // 2
 
     LARGE_INTEGER freq;
     LARGE_INTEGER t_1;
