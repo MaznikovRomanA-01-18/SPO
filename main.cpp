@@ -58,7 +58,7 @@ int main()
     char buffer[MAX_PATH];
     DWORD  cchBufferLength = MAX_PATH;
     char Names[MAX_PATH];
-    __int64 total, available, free;
+    ULARGE_INTEGER total, available, free;
 
 
     HANDLE search = FindFirstVolume(buffer, sizeof(buffer));
@@ -83,8 +83,8 @@ int main()
         }
         else
         {
-        printf("\n  Total size: %u  bytes ", total);
-        printf("\n  Free space: %u  bytes\n", available);
+        cout<<"\n  Free space: "<<available.QuadPart<<" bytes";
+        cout<<"\n  Total size: "<<total.QuadPart<<" bytes"<<endl;
         }
 
     } while (FindNextVolume(search, buffer, sizeof(buffer)));
@@ -108,6 +108,7 @@ int main()
             {
             printf("Programm %d: %s : %s \n", dwIndex+1, lpValueName, tcValue);
             dwIndex++;
+            lpDataLength = MAX_DATA_LENGTH;
             }
         }
 
